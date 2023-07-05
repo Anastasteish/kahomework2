@@ -19,19 +19,24 @@ public class Main {
 
 
         System.out.println("part 2");
-
-        String beta="Testing, is my favourite job";
-        String beta1="Testing";
-        String beta2="is";
-        String beta3="my";
-        String beta4="favourite";
-        String beta5="Job";
-        System.out.println(beta1.length() > beta2 && beta3 && beta4 && beta5 .length());
-        System.out.println(("Testing" ).length());
+        String beta = "Testing, is my favourite job";
+        String beta1 = "Testing";
+        String beta2 = "is";
+        String beta3 = "my";
+        String beta4 = "favourite";
+        String beta5 = "Job";
+        System.out.println(beta1.length() > beta2.length()
+                && beta1.length() > beta3.length()
+                && beta1.length() > beta4.length()
+                && beta1.length() > beta5.length());
+        System.out.println(("Testing").length());
         System.out.println(("is").length());
         System.out.println(("my").length());
         System.out.println(("favourite").length());
         System.out.println(("job").length());
+
+
+
 
 
 
@@ -44,7 +49,6 @@ public class Main {
         System.out.println(text.split("a").length);
         System.out.println(text.toLowerCase());
         System.out.println(text.toUpperCase());
-
 
 
 
